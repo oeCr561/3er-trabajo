@@ -1,0 +1,79 @@
+body {
+    font-family: cursive, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilo del título principal */
+h1 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+/* Estilo del input de monto */
+input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #D182EA;
+    outline: none;
+}
+
+/* Estilo del botón de calcular */
+button {
+    background-color: rgb(131, 138, 197);
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D182EA;
+}
+
+/* Estilo para el resultado */
+#resultado {
+    font-size: 1.5rem;
+    color: rgb(119, 0, 0);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
